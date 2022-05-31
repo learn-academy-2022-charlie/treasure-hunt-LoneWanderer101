@@ -18,7 +18,17 @@
     - Add an onClick to Square
     - Pass a method from App to Square to alert the index
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
+    - New Branch is called cont-treasure-hunt-jl
+    - hit ctrl/cmd/space bar for emojis
+    - Destructure board out of state
+    - Update the board value for the particular index
+    - Use emoji keyboard: control+command+space
+    - Set state with updated value
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
+    - Create random number for treasure and set state
+    - Add a conditional to the handleGamePlay to update teh treasureLocation with a diamond emoji
+    - Added another random number for bomb to the componentDidMount lifecycle method
+    - 
 - As a user, I can click on a “Play Again” button that will restart the game.
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at 5 and decrements one every time I click on a square that is not the treasure nor the bomb.
 - As a user, I can see a message informing me that I won the game if I select the square that contains the treasure.
